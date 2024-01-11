@@ -2,21 +2,56 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=deice-width, initial-scale=1.0">
-    <title>Правовая поддержка маломобильных граждан. Проект "MIO LEX" - Главная страница</title>
-    <link rel="stylesheet" href="style.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainstyle.css">
+    <title>Адаптивные контейнеры</title>
 </head>
 <body>
-    <ul class="block-list">
-        <li class="block">
-            <div class="block-text">Юридическая помощь</div>
-        </li>
-        <li class="block">
-            <div class="block-text">Законодательство</div>
-        </li>
-        <li class="block">
-            <div class="block-text">Правовое просвещение</div>
-        </li>
-    </ul>
+    <div class="container-left">
+        <ul class="side-nav-left">
+            <li>
+                <img id="menu1" class="side-menu-icon" src="img/consultation.svg" alt="Консультация">
+                <a class="side-menu-text" href="#">Консультация</a></li>
+            <li>
+                <img class="side-menu-icon" src="img/results.svg" alt="Результаты работы проекта">
+                <a class="side-menu-text" href="#">Результаты</a></li>
+            <li>
+                <img id="menu3" class="side-menu-icon" src="img/cases.svg" alt="Кейсы">
+                <a class="side-menu-text" href="#">Кейсы</a></li> 
+        </ul>
+    </div>
+    <div class="container-center">
+        <ul id="mainMenu" class="block-list">
+            <li class="block">
+                <div class="block-text">Юридическая помощь</div>
+            </li>
+            <li class="block2">
+                <div class="block-text">Законодательство</div>
+            </li>
+            <li class="block3">
+                <div class="block-text">Правовое просвещение</div>
+            </li>
+        </ul>
+    </div>
+    <div class="container-right">
+        <ul class="side-nav-right">
+            <li>
+                <img class="side-right-menu-icon" src="img/health_guard.svg" alt="Охрана здоровья">
+                <a class="side-right-menu-text" href="#">Охрана здоровья</a></li>
+            <li>
+                <img class="side-right-menu-icon" src="img/property.svg" alt="Имущество">
+                <a class="side-right-menu-text" href="#">Имущество</a></li>
+            <li>
+                <img class="side-right-menu-icon" src="img/availability.svg" alt="Доступность">
+                <a class="side-right-menu-text" href="#">Доступность</a></li>
+            <li>
+                <img class="side-right-menu-icon" src="img/society.svg" alt="Общество">
+                <a class="side-right-menu-text" href="#">Общество</a></li>
+            <li>
+                <img class="side-right-menu-icon" src="img/education.svg" alt="Образование">
+                <a class="side-right-menu-text" href="#">Образование</a></li>
+        </ul>
+    </div>
+<script src="main.js"></script>
 </body>
 </html>

@@ -5,6 +5,12 @@ body {
     height: 100vh;
 }
 
+.header {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+  }
+
 .container-center {
     display: flex;
     flex: 1;
@@ -102,7 +108,7 @@ body {
     font-weight: 600;
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(110, 61, 55);
+    color: rgb(241, 241, 241);
 }
 
 .block:hover {
